@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:background="#FF232132">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ANASAYFAM"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:padding="25dp"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        app:srcCompat="@drawable/me"
+        android:padding="25dp" />
+
+    <Button
+        android:id="@+id/btnarama"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="ARAMA"
+        android:textSize="20sp"
+        android:textColor="#FFC107" />
+
+    <Button
+        android:id="@+id/btneposta"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="E_POSTA_GÖNDERME"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textColor="#FFC107"/>
+
+    <Button
+        android:id="@+id/btnsehir"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="BENİM_ŞEHRİM"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textColor="#FFC107"/>
+
+    <Button
+        android:id="@+id/btndersler"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="DÖNEM_DERSLERİM"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textColor="#FFC107"/>
+</LinearLayout>

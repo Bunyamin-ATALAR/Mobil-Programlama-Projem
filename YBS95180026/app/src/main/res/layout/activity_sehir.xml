@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SehirActivity"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:background="#D2FFFC3B"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/harsena_kalesi" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:text="AMASYA(HARŞENA KALESİ)"
+
+                 />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Amasya Kalesi, Amasya il merkezinin kuzeyini kaplayan Harşena Dağı üzerindedir. Harşena Kalesi adıyla da bilinir. Amasya Kalesi’nin üzerinde inşa edildiği kaya denizden 700 metre Yeşilırmak’tan ise 300 metre yüksekte bulunmaktadır. Bazı tarihçilere göre kaleyi Pontus Kralı Mithridates yaptırmıştır. Bazılarına göre ise Kumandan Karsan veya Harsana yaptırdığı için kale Harşana/Harşena ismini almıştır.Amasya Kalesi, tarihi mücadeleler içinde birçok kez el değiştirmiş ve bunların çoğunda tahrip olmuştur. Persler, Romalılar, Pontus ve Bizanslıların egemenlikleri döneminde birçok saldırıya uğrayan kale her seferinde yeniden inşa edilmiştir. Kale 1075’te Türklerin Amasya’yı fethetmesinden sonra önemli bir onarım görmüştür. 18'inci yüzyıla kadar kullanılan kale, bu yüzyıldan sonra askeri önemini kaybetmiştir."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/harsena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Harsena Kalesi"
+                android:textColor="#FFC107"
+                />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kaya_mezar" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:text="AMASYA(KRAL KAYA MEZARLARI)"
+                 />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="Helenistik Dönem'de, Amasya’yı İÖ. 302’den İÖ. 26’ya kadar başkent olarak kullanan Pontus Krallarına ait olan Kral Kaya Mezarları, Amasya Kalesi eteklerinde düz bir duvar gibi dikine uzanan kalker kayalara oyularak yapılmıştır. Hatuniye Mahallesi’nin dar sokaklarından, tren yolunu geçerek çıkılan mezarların arasında, kayaya oyulmuş yollar ve merdivenler bulunmaktadır. Yeşilırmak Vadisi boyunca, irili ufaklı 21 mezar olduğu bilinmekle birlikte bunlardan sadece birkaç tanesi günümüze gelebilmiştir.Bu bölgedeki büyük mezarlardan birinin yanında, nehre kadar uzandığına inanılan bir tünelin başlangıcı bulunmaktadır. Kızlar Sarayı üzerinde yer alan üçlü kral mezarları birbirine bitişik olarak yapılmıştır. Bu üçlü mezarların sağ baştaki, krallığın kurucusu Mitridat Ktistes’e aittir. Diğer mezarlardan farklı olarak etrafında U şeklinde koridor yoktur. Ortadaki mezar da M.Ö 266 – 256 yıllarında yapılmış I.Mitridat’ın oğlu Ariobarzan’a aittir. Üçlü mezarın solundaki mezar ise M.Ö 222 yılında II.Mitridat’a aittir. Bu üçlü mezar grubundan sonra, bölgenin güneybatısında taşlara oyulmuş basamaklı bir tünelden geçilerek ikili mezar grubuna ulaşılır. Bu ikili mezarlardan ilki III.Kral Mitridat için M.Ö 195 yılında yapılmıştır."
+                android:textStyle="bold"
+                 />
+
+            <Button
+                android:id="@+id/kaya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kral Kaya Mezarlari"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFC107"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/hazeranlar_konagi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:text="AMASYA(HAZERANLAR KONAĞI)"
+                 />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="Amasya Defterdarı Hasan Talat Efendi tarafından 1865 yılında yaptırılmıştır. Konak, adını burada uzun süre oturan Hezeran Hanım’dan almaktadır. Hazeranlar Konağı, dört eyvanlı, orta sofalı planı ile Osmanlı Dönemi yöresel sivil mimari eserlerin özelliklerini yansıtan en güzel yapılardan biridir. Antik dönem sur duvarları üzerine, bodrum üzeri, iki katlı ahşap çatkı arası kerpiç dolgulu olarak yapılmıştır. Konak, haremlik ve selamlık olarak iki bölüm halinde düzenlenmiştir. Dört eyvanlı, iç avlulu, dışa kapalı yapı tipindedir. Konağın restorasyonuna 1979’da başlanılmış ve 1984’de tamamlanarak etnografik eserlerin teşhir edildiği müze ev olarak hizmete açılmıştır.Hazeranlar Konağı’nda teşhir edilen eserler arasında 19'uncu yüzyıl yaşantısını yansıtan giysiler, halı ve kilimler, konakta kullanılan günlük mutfak eşyaları ve kadın ziynet eşyaları gibi malzemeler yer almaktadır. Etnografik eserler arasında, özellikle kitabeli olan halılar, bindallılar, gümüş takılar ve altın renkli sırma işlemeler dönemin özelliklerini yansıtması açısından önemlidir. Bugün konağın üst katları müze ev, bodrum katı ise güzel sanatlar galerisi olarak kullanılmaktadır."
+                 />
+
+            <Button
+                android:id="@+id/hazeran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hazeranlar Konagi"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFC107"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/aynali_magara" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:text="AMASYA(AYNALI MAĞARA)"
+                 />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="Ziyaret Beldesi yolu üzerinde şehir merkezine 3,3 kilometre uzaklıktadır. Kaya mezarlarının en iyi işlenmiş ve tamamlanmış olanıdır. Yerden dört basamakla çıkılan mezar düz bir kayaya oyulmuştur. Genişliği 9,8 metre yüksekliği 13 metredir. Dış cepheden bakıldığı zaman usta bir taş işçiliği ile yapıldığı görülebilir. Mağaranın dış cephe yüzeyi perdahlanarak parlatılmıştır. Buraya Aynalı Mağara denmesinin nedeni de, güneş vurduğu zaman mağaranın cephesinin parlamasıdır." />
+
+            <Button
+                android:id="@+id/aynali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aynali Magara"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFC107"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sehzadeler_muzesi" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:text="AMASYA(ŞEHZADELER MÜZESİ)" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="Yalıboyu’nun en eski köprülerinden Alçak Köprü’nün ayağında, Kral Kaya Mezarları'nın eteklerinde, Yeşilırmak'ın kıyısındaki eski sur duvarları üzerinde kurulu iki katlı ahşap bina Şehzadeler Müzesi olarak tasarlanmıştır. Şehzadelikleri Amasya’da geçmiş olan Osmanlı Sultanlarının aslına uygun resimlerinden yola çıkarak yaptırılan heykelleri ve kendi dönemlerini yansıtan kıyafetleri ile müze, Amasya’ya gelen turistlerin önemli ziyaret yerlerindendir. Duvarları ve tavanları Hatai ve Rumi desenlerle süslenen müze, duvarlarında yer alan özgün hat ve tezhip örnekleri; dokuması, renkleri ve motifleriyle geleneksel halı dokumacılığının en güzel örneklerini yansıtan ahşap tabana serili halıları ve her biri özenle seçilmiş, dönemi yansıtan aksesuarlarıyla 15'inci ve 16'ncı yüzyıllara ait bir Anadolu Türk evinin tam olarak bugüne taşınmış halidir." />
+
+            <Button
+                android:id="@+id/sehzadeler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sehzadeler Muzesi"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFC107"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">YBS95180026</string>
+    <string name="ANASAYFAM">MainPage</string>
+    <string name="ARAMA">Search</string>
+    <string name="E_POSTA_GÖNDERME">Send_Mail</string>
+    <string name="BENİM_ŞEHRİM">My_City</string>
+    <string name="DÖNEM_DERSLERİM">My_Semester_Courses</string>
+
+</resources>
